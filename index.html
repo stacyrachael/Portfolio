@@ -1,1 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<main class="shell">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Stacy</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Stacy</h1>
+            <p class="hero-subtitle">Computer Science Student</p>
+            <p class="hero-description">Building elegant solutions through software development, database design, and innovative problem-solving</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-accent"></div>
+    </header>
+
+    <div class="content-grid">
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a passionate Computer Science student with a strong focus on building practical, scalable systems. My journey in software development has been driven by curiosity and a commitment to writing clean, efficient code.
+                </p>
+                <p>
+                    Currently, I'm developing expertise in:
+                </p>
+                <ul class="about-highlights">
+                    <li><span class="highlight-icon">→</span> Software Engineering & System Design</li>
+                    <li><span class="highlight-icon">→</span> Database Architecture & Optimization</li>
+                    <li><span class="highlight-icon">→</span> Problem-Solving & Algorithm Development</li>
+                    <li><span class="highlight-icon">→</span> Full-Stack Development Practices</li>
+                </ul>
+                <p>
+                    When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and mentoring fellow students in their programming journey.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Student Management System</h3>
+                        <span class="project-status">In Development</span>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive system for managing student records, enrollment processes, and performance tracking using SQL and OOP principles. Implements complex relational schemas and efficient query optimization.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Database Design</span>
+                    </div>
+                    <a href="https://github.com/stacyrachael/student-management-system" class="project-link" target="_blank">
+                        View Repository →
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Relational Database System</h3>
+                        <span class="project-status">In Development</span>
+                    </div>
+                    <p class="project-description">
+                        Advanced database design project focused on normalization techniques, schema optimization, and efficient querying. Features include transaction management and performance analysis.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Performance Tuning</span>
+                    </div>
+                    <a href="https://github.com/stacyrachael/relational-database-system" class="project-link" target="_blank">
+                        View Repository →
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Algorithm & Data Structures Library</h3>
+                        <span class="project-status">Ongoing</span>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive collection of well-documented algorithms and data structures implementations with detailed complexity analysis and practical use cases for interview preparation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Big-O Analysis</span>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>This Portfolio</h3>
+                        <span class="project-status">Complete</span>
+                    </div>
+                    <p class="project-description">
+                        A modern, responsive portfolio website showcasing my work and skills. Built with vanilla HTML, CSS, and JavaScript featuring smooth animations and interactive elements.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://github.com/stacyrachael/portfolio" class="project-link" target="_blank">
+                        View Repository →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">SQL & Relational Design</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">Database Optimization</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Core Concepts</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Data Structures & OOP</span>
+                        <span class="skill-item">Algorithms & Complexity</span>
+                        <span class="skill-item">System Design</span>
+                        <span class="skill-item">Problem Solving</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Development Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git & GitHub</span>
+                        <span class="skill-item">Version Control</span>
+                        <span class="skill-item">RESTful APIs</span>
+                        <span class="skill-item">Agile Methodologies</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Let's Connect</h2>
+        <p class="contact-subtitle">Feel free to reach out for collaborations or just a friendly hello!</p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:rachaelstacy00@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">GitHub</span>
+                    <a href="https://github.com/stacyrachael" class="contact-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Instagram</span>
+                    <a href="https://www.instagram.com/staycie_archy?igsh=c2Z6MzdjeWQ5YmF5" class="contact-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">WhatsApp</span>
+                    <a href="https://wa.me/0111305701" class="contact-link" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Stacy. Crafted with dedication and code.</p>
+    </footer>
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>
